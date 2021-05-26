@@ -1,0 +1,3 @@
+# Template Project: React + TypeScript
+
+:)
