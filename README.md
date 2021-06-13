@@ -20,16 +20,17 @@ const [state, setState] = React.useState();
 
 Example 2:
 
-file tree:
 ```txt
+File tree:
 src/
 ├─ components/
 │  ├─ Component.tsx
 ├─ App.tsx
 ```
 
+With create-react-app:
+
 ```js
-// create-react-app
 // App.tsx
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -47,8 +48,9 @@ const App: React.FC = (props): JSX.Element => {
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
 
+With my react template:
+
 ```js
-// my react template
 // App.tsx
 /// <reference path="./components/Component.tsx" />
 
