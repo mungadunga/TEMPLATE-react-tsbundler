@@ -9,7 +9,9 @@ Example:
 // create-react-app
 import React, { useState } from 'react';
 const [state, setState] = useState();
+```
 
+```js
 // my react template
 // no need to import
 const [state, setState] = React.useState();
